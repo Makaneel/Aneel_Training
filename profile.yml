@@ -1,0 +1,13 @@
+customer_pipeline:
+  target : dev
+  outputs:
+    dev:
+      type: snowflake
+      account: FNADPER-XQ39176
+      user: Aneelkumar
+      password: kE7fAUMTfcgruFN
+      role: ACCOUNTADMIN
+      database: DBT
+      warehouse: COMPUTE_WH
+      schema: public
+      authenticator: snowflake
